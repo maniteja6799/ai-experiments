@@ -1,0 +1,10 @@
+{"id":"doc-001","text":"Retrieval augmented generation grounds a language model with passages retrieved from an external corpus."}
+{"id":"doc-002","text":"BM25 is a lexical ranking function that scores documents using term frequency and inverse document frequency."}
+{"id":"doc-003","text":"Dense retrieval represents queries and documents as vectors, then finds similar vectors with a similarity metric."}
+{"id":"doc-004","text":"Reciprocal rank fusion combines ranked result lists without requiring score calibration between retrievers."}
+{"id":"doc-005","text":"Chunk size controls how much context is stored in one retrieval unit; overlap preserves context across chunk boundaries."}
+{"id":"doc-006","text":"Mean reciprocal rank rewards systems that place the first relevant result near the top of the ranking."}
+{"id":"doc-007","text":"Normalized discounted cumulative gain uses graded relevance and discounts useful documents found lower in a result list."}
+{"id":"doc-008","text":"A vector index can improve nearest-neighbor search speed but may consume substantial disk space and memory."}
+{"id":"doc-009","text":"RunPod provides on-demand GPU pods useful for model training, inference, and large embedding experiments."}
+{"id":"doc-010","text":"JupyterLab provides an interactive notebook environment for data science and machine learning experimentation."}
