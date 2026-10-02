@@ -1,5 +1,3 @@
 .venv/
 __pycache__/
 .ipynb_checkpoints/
-results/benchmark-results.json
-results/tradeoff-report.md

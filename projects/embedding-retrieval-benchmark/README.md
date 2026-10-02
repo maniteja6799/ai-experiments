@@ -15,10 +15,11 @@ Compare dense, lexical, and hybrid retrieval on a fixed corpus, measuring retrie
 
 ```bash
 uv sync
+uv run python scripts/run_benchmark.py
 uv run jupyter lab
 ```
 
-Open `notebooks/benchmark.ipynb` and run all cells. The first run downloads the configured embedding models. The notebook writes machine-readable output to `results/benchmark-results.json` and a Markdown summary to `results/tradeoff-report.md`.
+The first run downloads the configured embedding models. The terminal runner and the notebook both write machine-readable output to `results/benchmark-results.json` and a Markdown summary to `results/tradeoff-report.md`.
 
 ## Baseline corpus
 
